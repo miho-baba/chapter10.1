@@ -65,17 +65,16 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
   header {
-    height: 150px;
+    height: 50px;
     width: 100%;
 }
 
 main {
-  height: 150px;
   width: 100%;
   margin: 50px auto;
-  display: flex;
+  display: block;
 }
 
 .step-box {
@@ -84,10 +83,13 @@ main {
   padding: 20px;
   position: relative;
   background-color: #eee;
+  margin: auto;
+  margin-top: 20px
 }
 
 .step-box:last-child {
-  margin-right: 0;
+  margin: auto;
+  margin-top: 20px;
 }
 
 .step-img1 {
@@ -126,4 +128,5 @@ main {
 footer {
   height: 50px;
   background-color: #aaa;
+}
 }
